@@ -1,0 +1,44 @@
+
+
+
+.mainpic {
+    border-radius: 50%;
+    height: 240px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::placeholder {
+    color: aqua;
+    font-weight: bold;
+    text-align: center;
+}
+
+body.contact    {
+    background-color: lightcyan;
+}
+
+span {
+    background-color: maroon;
+}
+
+.cont {
+   border-radius: 50%;
+   height: 20%;
+   flex-direction: row;
+   margin: 20px;
+   display: block;
+   float: right;
+   position: absolute;
+   right: 0%;
+   border: white solid 10px;
+}
+
+textarea {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
